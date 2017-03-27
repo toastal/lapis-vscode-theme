@@ -1,0 +1,28 @@
+{
+  "name": "lapis-vscode-theme",
+  "displayName": "Lapis Theme",
+  "description": "Bluish, greenish theme based off of Lapis256",
+  "version": "0.0.1",
+  "scripts" : {
+    "build": "node scripts/build.js src/theme.cson > themes/Lapis.tmTheme"
+  },
+  "engines": {
+    "vscode": ">=0.10.x"
+  },
+  "categories": [ "Themes" ],
+  "licence": "MIT",
+  "publisher": "toastal",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lapis256",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lapis256.tmTheme"
+      }
+    ]
+  },
+  "devDependencies": {
+    "cson": "^4.0.0",
+    "plist": "^2.0.1"
+  }
+}
