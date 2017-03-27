@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>name</key>
-    <string>lapis256</string>
+    <string>lapis</string>
     <key>settings</key>
     <array>
       <dict>
@@ -18,15 +18,15 @@
           <key>invisibles</key>
           <string>#383C44</string>
           <key>lineHighlight</key>
-          <string>#23262D</string>
+          <string>#ffffff0a</string>
           <key>selection</key>
           <string>#ff005f</string>
+          <key>selectionForeground</key>
+          <string>#131217</string>
           <key>findHighlight</key>
           <string>#ff00d7</string>
           <key>findHighlightForeground</key>
           <string>#000000</string>
-          <key>selectionBorder</key>
-          <string>#222218</string>
           <key>activeGuide</key>
           <string>#9D550FB0</string>
           <key>bracketsForeground</key>
